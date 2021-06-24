@@ -1,0 +1,82 @@
+.animation{
+	border:1px solid black;
+	width:500px;
+	}
+
+
+span{
+	display:inline-block;
+	width:40px;
+	font-size:40px;
+	text-align:center;
+	border-radius:10px;
+	margin:10px;
+	background:#2c333a;
+	 color:#77c6bc;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+
+#span1{
+	animation: mustafa 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) both,
+             mortaza .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 2s forwards;  
+} 
+
+#span2{
+	animation: mustafa 1s cubic-bezier(0.68, -0.55, 0.26, 1.55)3s both,
+             mortaza .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 4s forwards;  
+  
+}
+#span3{
+	animation: mustafa 1s cubic-bezier(0.68, -0.55, 0.26, 1.55)5s both,
+             mortaza .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 6s forwards;  
+  
+}
+#span4{
+	animation: mustafa 1s cubic-bezier(0.68, -0.55, 0.26, 1.55)7s both,
+             mortaza .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 8s forwards;  
+  
+}
+#span5{
+	animation: mustafa 1s cubic-bezier(0.68, -0.55, 0.26, 1.55)9s both,
+             mortaza .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 10s forwards;  
+  
+}
+#span6{
+	animation: mustafa 1s cubic-bezier(0.68, -0.55, 0.26, 1.55)11s both,
+             mortaza .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 12s forwards;  
+  
+}
+#span7{
+
+	
+	animation: mustafa 1s cubic-bezier(0.68, -0.55, 0.26, 1.55)13s both,
+             mortaza .5s cubic-bezier(0.45, 0.03, 0.51, 0.95) 14s forwards;  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes mustafa{
+	from{ttransform:scale(1);}
+
+	to{transform: scale(2);}
+
+}
+
+
+
+
+@-webkit-keyframes mortaza{
+	from{transform:scale(2);;}
+	to{transform:scale(1);}
+}
